@@ -46,8 +46,8 @@ function Example() {
           let headline = detail.querySelector("h1");
           let animation = gsap
             .timeline()
-            .to(photos[index], { yPercent: 0 })
-            .set(allPhotos[index], { autoAlpha: 0 });
+            .to(photos[index] as EventTarget, { yPercent: 0 })
+            .set(allPhotos[index] as EventTarget, { autoAlpha: 0 });
 
           ScrollTrigger.create({
             trigger: headline,

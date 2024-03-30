@@ -4,12 +4,12 @@ import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 
 const TextReveal = () => {
-  const [letterRef, setLetterRef] = useArrayRef();
+  const [letterRef, setLetterRef]: any = useArrayRef();
 
   function useArrayRef() {
-    const letterRef = useRef([]);
+    const letterRef: any = useRef([]);
     letterRef.current = [];
-    return [letterRef, (ref) => ref && letterRef.current.push(ref)];
+    return [letterRef, (ref: any) => ref && letterRef.current.push(ref)];
   }
 
   const triggerRef = useRef(null);
