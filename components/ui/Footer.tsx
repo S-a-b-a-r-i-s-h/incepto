@@ -12,13 +12,13 @@ const Footer = () => {
             <div className='flex flex-col gap-6'>
                 <div className='flex gap-6 items-center'>
                     <HiOutlineMail size={35} className="max-sm:w-8 max-sm:h-8" />
-                    <p>anything@gmail.com</p>
+                    <p>inceptohack@gmail.com</p>
                 </div>
                 <div className='flex gap-6 items-center'>
                     <TbPhone size={35} className="max-sm:w-8 max-sm:h-8" />
                     <div>
-                        <p>Anyone: &nbsp;1234567891</p>
-                        <p>Anyone: &nbsp;1234567891</p>
+                        <p>Habeeb: &nbsp;+91 9744116364</p>
+                        <p>Harikrishnan: &nbsp;+91 7902485392</p>
                     </div>
                 </div>
                 <div className='flex gap-6 items-center'>

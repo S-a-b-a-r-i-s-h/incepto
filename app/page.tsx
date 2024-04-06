@@ -1,5 +1,7 @@
+import About from "@/components/ui/About";
 import Benefits from "@/components/ui/Benefits";
 import Footer from "@/components/ui/Footer";
+import Organizers from "@/components/ui/Organizers";
 import Sponsers from "@/components/ui/Sponsers";
 import TextReveal from "@/components/ui/TextReveal";
 import Timer from "@/components/ui/Timer";
@@ -8,11 +10,13 @@ import Track from "@/components/ui/Track";
  export default function Home() {
   return (
     <h1>
+      <About />
       <TextReveal />
       <Timer />
       <Track />
       <Benefits />
-      <Sponsers />
+      {/* <Sponsers /> */}
+      <Organizers />
       <Footer />
     </h1>
   );
