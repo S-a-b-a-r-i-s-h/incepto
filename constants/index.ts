@@ -27,7 +27,7 @@ export const  tracks = [
         description: `In this domain, participants will explore collaborative approaches to problem-solving. They will work with various stakeholders to develop innovative solutions. The goal is to leverage external ideas and resources to drive positive change, fostering an environment of open innovation.`,
         title1Class: '',
         title2Class: 'bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent',
-        border: 'blue'
+        border: 'bg-blue-500/30'
     },
     {
         title1: 'Immersive Technologies &',
@@ -35,7 +35,7 @@ export const  tracks = [
         description: `Participants in this domain will utilize virtual reality (VR) to create immersive experiences. These experiences aim to raise awareness of social and environmental issues, fostering empathy and inspiring action towards solving these problems.`,
         title1Class: '',
         title2Class: 'bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent',
-        border: 'green'
+        border: 'bg-green-500/30'
     },
     {
         title1: 'Artificial Intelligence in',
@@ -43,7 +43,7 @@ export const  tracks = [
         description: `This domain focuses on leveraging artificial intelligence (AI) to transform the food industry. Participants will develop AI systems to revolutionize food production and consumption, aiming to improve efficiency, health, and sustainability in food-related processes.`,
         title1Class: '',
         title2Class: 'bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-transparent',
-        border: 'violet'
+        border: 'bg-violet-500/30'
     },
     {
         title1: 'Financial Technology',
@@ -51,7 +51,7 @@ export const  tracks = [
         description: `In this domain, participants will explore decentralized finance (DeFi) solutions. They will create user-friendly DeFi platforms and mobile apps for micro-transactions, aiming to democratize finance and provide access to financial services for underbanked communities.`,
         title1Class: 'bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent',
         title2Class: '',
-        border: 'yellow'
+        border: 'bg-yellow-500/30'
     },
     {
         title1: 'Cybersecurity and',
@@ -60,6 +60,6 @@ export const  tracks = [
         responsible online behavior.`,
         title1Class: '',
         title2Class: 'bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent',
-        border: 'red'
+        border: 'bg-red-500/30'
     },
 ]

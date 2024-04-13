@@ -6,14 +6,6 @@ import { useRef } from "react";
 import { tracks } from "@/constants";
 
 const Track = () => {
-  const colorClasses: any = {
-    blue: 'bg-blue-500',
-    green: 'bg-green-500',
-    violet: 'bg-violet-500',
-    yellow: 'bg-yellow-500',
-    red: 'bg-red-500',
-  };
-
   const container = useRef(null);
   gsap.registerPlugin(ScrollTrigger);
 
@@ -56,45 +48,21 @@ const Track = () => {
       >
         TRACKS
       </h1>
-      {/* <div id="track-content" className="glass-container">
-        <div
-          id="track-glow"
-          className="absolute inset-0 -z-10 bg-blue-500/30 blur-2xl filter opacity-0"
-        ></div>
-        <div className="opacity-1 flex flex-col items-center justify-center bg-[#070815] text-white w-[50vh] max-sm:w-full">
-          <h1 className="text-3xl max-sm:text-2xl w-full flex justify-center mt-5 mb-8">
-            Open &nbsp;
-            <span
-              id="track-glow"
-              className="opacity-0 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent"
-            >
-              {" "}
-              Innovation
-            </span>
-          </h1>
-          <p className="text-xl w-[90%] mb-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
-            similique fugit placeat velit perferendis labore ut error incidunt
-            voluptatem. Nam.
-          </p>
-        </div>
-      </div> */}
-
       {tracks.map((track) => (
         <div id="track-content" className="glass-container mt-32">
           <div
             id="track-glow"
-            className={`absolute inset-0 -z-10 ${colorClasses[track.border]}/30 blur-2xl filter opacity-0`}
+            className={`absolute inset-0 -z-10 ${track.border} blur-2xl filter opacity-0`}
           >
             {/* 
-              blue
-              green
-              violet
-              yellow
-              red
+              bg-blue-500/30
+              bg-green-500/30
+              bg-violet-500/30
+              bg-yellow-500/30
+              bg-red-500/30
             */}
           </div>
-          
+
           <div className="opacity-1 flex flex-col items-center justify-center bg-[#070815] text-white w-[50vh] max-sm:w-full">
             <h1 className="text-3xl max-sm:text-2xl w-full flex flex-col justify-center mt-5 mb-8 ">
               <span className={`mx-auto ${track.title1Class}`}>

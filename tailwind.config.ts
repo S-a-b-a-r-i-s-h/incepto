@@ -1,6 +1,22 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  purge: {
+    content: [
+      "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+      "./components/**/*.{js,ts,jsx,tsx,mdx}",
+      "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    ],
+    options: {
+      safelist: [
+        'bg-blue-500',
+        'bg-green-500',
+        'bg-violet-500',
+        'bg-yellow-500',
+        'bg-red-500',
+      ],
+    },
+  },
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
