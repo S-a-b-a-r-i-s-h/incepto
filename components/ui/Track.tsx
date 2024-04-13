@@ -6,6 +6,14 @@ import { useRef } from "react";
 import { tracks } from "@/constants";
 
 const Track = () => {
+  const colorClasses: any = {
+    blue: 'bg-blue-500',
+    green: 'bg-green-500',
+    violet: 'bg-violet-500',
+    yellow: 'bg-yellow-500',
+    red: 'bg-red-500',
+  };
+
   const container = useRef(null);
   gsap.registerPlugin(ScrollTrigger);
 
@@ -76,7 +84,7 @@ const Track = () => {
         <div id="track-content" className="glass-container mt-32">
           <div
             id="track-glow"
-            className={`absolute inset-0 -z-10 bg-${track.border}-500/30 blur-2xl filter opacity-0`}
+            className={`absolute inset-0 -z-10 ${colorClasses[track.border]}/30 blur-2xl filter opacity-0`}
           >
             {/* 
               blue
