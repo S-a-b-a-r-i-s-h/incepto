@@ -6,6 +6,17 @@
   --textPrimaryColor: #2A2A2A;
   --headlineBig: clamp(3rem, 10vw, 15rem);
 }
+.timer {
+  background-image: url('../public/assets/advyka.png');
+  /* background-color: #000; */
+  /* background: blue; */
+  background-size: cover;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  opacity: 0.1;
+  /* background-blend-mode: multiply; */
+}
 .reveal {
   padding-left: 15%;
   padding-right: 10%;

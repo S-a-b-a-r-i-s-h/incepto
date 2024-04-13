@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center'>
                 <Image 
-                  src="/assets/food.jpeg"
+                  src="/assets/advyka.png"
                   width={200}
                   height={200}
                   alt="College of Engineering Perumon"
