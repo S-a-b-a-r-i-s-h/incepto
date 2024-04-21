@@ -45,7 +45,7 @@ const Timer = () => {
     // });
   }, []);
 
-  const target = new Date("05/04/2024 23:59:59");
+  const target = new Date("05/09/2024 09:29:59");
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
@@ -82,7 +82,7 @@ const Timer = () => {
   return (
     <div
       ref={container}
-      className="text-white w-full h-[100vh] relative pt-[15vh] flex justify-center items-center max-md:items-start  overflow-hidden"
+      className="text-white w-full h-[100vh] relative flex justify-center items-center max-md:items-start  overflow-hidden"
     >
       <Image 
         src="/assets/advykabg.png"
@@ -114,7 +114,7 @@ const Timer = () => {
         </h1>
 
         <div className="flex w-full justify-around text-[50px] max-sm:flex-col items-center md:m-10">
-          <p className="m-6">May 04</p>
+          <p className="m-6">May 09</p>
           <p className="m-6 gradient2">
             @CEP
           </p>
