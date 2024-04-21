@@ -30,7 +30,7 @@ function Example() {
       // add a media query. When it matches, the associated function will run
       mm.add("(min-width: 600px)", () => {
         // this setup code only runs when viewport is at least 600px wide
-        console.log("desktop");
+        // console.log("desktop");
 
         ScrollTrigger.create({
           trigger: galleryRef.current,
@@ -63,7 +63,7 @@ function Example() {
         return () => {
           // optional
           // custom cleanup code here (runs when it STOPS matching)
-          console.log("mobile");
+          // console.log("mobile");
         };
       
     }, comp);
@@ -82,11 +82,11 @@ function Example() {
       </div>
       <div ref={galleryRef} className="gallery">
         <div className="left">
-          <div className="desktopContent text-slate-300">
+          <div className="desktopContent">
             {benefits.map((benefit) => (
               <div className="desktopContentSection">
-                <h1>{benefit.title}</h1>
-                <p>{benefit.description}</p>
+                <h1 className="bg-gradient-to-r from-blue-200 to-cyan-200 bg-clip-text text-transparent">{benefit.title}</h1>
+                <p className="text-white">{benefit.description}</p>
               </div>
             ))}
           </div>

@@ -104,6 +104,17 @@
   border-radius: 6vw;
 }
 
+.gradient2{
+  background: linear-gradient(to right, #BFDBFE, #06B6D4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.vertical-timeline .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #BFDBFE;
+}
+
 /* defines styles for screens up to 599px wide */
 @media screen and (max-width: 599px) {
   .left {
@@ -134,6 +145,7 @@
     @apply absolute -inset-[10px] -z-10 rounded-xl border border-slate-100/20 bg-slate-200/10 backdrop-blur-md;
     content: "";
   }
+  
   
   .signal-line {
     --rotation: 90deg;

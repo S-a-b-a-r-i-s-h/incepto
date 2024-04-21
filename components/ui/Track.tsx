@@ -40,8 +40,12 @@ const Track = () => {
   return (
     <div
       ref={container}
-      className="mt-20 w-fullp-10 max-sm:p-5 flex flex-col items-center justify-center mb-[100px]"
+      className="mt-10 w-full p-10 max-sm:p-5 flex flex-col items-center justify-center mb-[100px]"
     >
+      <div className="w-full h-[40vh] mb-24">
+        <h1 className="text-white w-full h-[5vh] text-5xl flex justify-center font-semibold">Prize Pool</h1>
+        <h1 className="bg-gradient-to-r from-zinc-500 via-zinc-600 to-zinc-700 bg-clip-text text-transparent opacity-[0.8] w-full h-[35vh] text-[30vh] max-sm:text-[20vh] flex justify-center p-0 m-0 items-center">20k</h1>
+      </div>
       <h1
         id="track-heading"
         className="opacity-1 text-white text-5xl font-semibold"
@@ -49,7 +53,7 @@ const Track = () => {
         TRACKS
       </h1>
       {tracks.map((track) => (
-        <div id="track-content" className="glass-container mt-32">
+        <div id="track-content" className="glass-container mt-20">
           <div
             id="track-glow"
             className={`absolute inset-0 -z-10 ${track.border} blur-2xl filter opacity-0`}

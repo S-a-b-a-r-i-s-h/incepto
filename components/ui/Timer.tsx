@@ -115,19 +115,20 @@ const Timer = () => {
 
         <div className="flex w-full justify-around text-[50px] max-sm:flex-col items-center md:m-10">
           <p className="m-6">May 04</p>
-          <p className="m-6 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
+          <p className="m-6 gradient2">
             @CEP
           </p>
         </div>
         <div className="flex justify-around mt-[5vh] w-full max-sm:flex-col items-center">
           <p
             id="free-reg"
-            className="inline m-6 mr-0 text-2xl font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent"
+            className="inline m-6 mr-0 text-2xl font-bold gradient2"
           >
             Free Registration !
           </p>
           <Button />
         </div>
+        
       </div>
     </div>
   );

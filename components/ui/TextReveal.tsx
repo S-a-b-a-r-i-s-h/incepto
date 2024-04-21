@@ -35,7 +35,7 @@ const TextReveal = () => {
     }
   })
 
-  const text = `A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit.`
+  const text = `A 24-hour hackathon is being held at College of Engineering Perumon, inviting innovators nationwide to showcase their technical and problem-solving skills.`
 //   return (
 //     <div className='reveal'>
 //         <div ref={triggerRef}>

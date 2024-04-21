@@ -4,6 +4,7 @@ import Footer from "@/components/ui/Footer";
 import Organizers from "@/components/ui/Organizers";
 import Sponsers from "@/components/ui/Sponsers";
 import TextReveal from "@/components/ui/TextReveal";
+import Timeline from "@/components/ui/Timeline";
 import Timer from "@/components/ui/Timer";
 import Track from "@/components/ui/Track";
 
@@ -14,6 +15,7 @@ import Track from "@/components/ui/Track";
       <TextReveal />
       <Timer />
       <Track />
+      <Timeline />
       <Benefits />
       {/* <Sponsers /> */}
       <Organizers />

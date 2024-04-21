@@ -1,25 +1,33 @@
-export const  benefits = [
+import { FaWpforms } from "react-icons/fa6";
+import { FaCode } from "react-icons/fa6";
+import { FaRankingStar } from "react-icons/fa6";
+import { GoDiscussionClosed } from "react-icons/go";
+import { HiLightBulb } from "react-icons/hi";
+import { GoVerified } from "react-icons/go";
+
+export const benefits = [
     {
         title: 'Prize Pool',
-        description: 'The prize pool is the total amount of money that is distributed.',
-        icon: '/assets/prize_pool.jpeg'
+        description: 'Dive into a sea of rewards with our substantial prize pool!',
+        icon: '/assets/prizepool.png'
     },
     {
-        title: 'Food',
-        description: 'The prize pool is the total amount of money that is distributed.',
+        title: 'Gourmet Delights',
+        description: 'Savor the taste of success with our delicious food offerings!',
         icon: '/assets/food.jpeg'
     },
     {
-        title: 'Goodies',
-        description: 'The prize pool is the total amount of money that is distributed',
-        icon: '/assets/food.jpeg'
+        title: 'Merchandise',
+        description: 'Stand out with our trendy and exclusive swags!',
+        icon: '/assets/swag.jpg'
     },
     {
-        title: 'Badges',
-        description: 'The prize pool is the total amount of money that is distributed',
-        icon: '/assets/food.jpeg'
+        title: 'Networking',
+        description: 'Forge valuable connections in the tech world!',
+        icon: '/assets/network.avif'
     },
 ]
+
 export const  tracks = [
     {
         title1: 'Open',
@@ -62,4 +70,42 @@ export const  tracks = [
         title2Class: 'bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent',
         border: 'bg-red-500/30'
     },
+]
+
+export const TimeLineElements: { id: number, title: string, description: string, date: string, icon: React.ElementType }[] = [
+    {
+        id:1,
+        title:'Registration Starts with idea submission:',
+        description:"- Registration for the hackathon officially opens. Participants can begin submitting their ideas for consideration.",
+        date: '23 April 2023',
+        icon: FaWpforms 
+    },
+    {
+        id:2,
+        title:'Registration Ends:',
+        description:"- This marks the deadline for participants to complete their registration and submit their ideas for the hackathon.",
+        date: '05 May 2024',
+        icon:  HiLightBulb
+    },
+    {
+        id:3,
+        title:'Announcement of shortlisted teams:',
+        description:`- The organizing committee will review submitted ideas and announce the shortlisted teams that will participate in the hackathon.`,
+        date: '05 May 2024',
+        icon: GoVerified 
+    },
+    {
+        id:4,
+        title:'Hackathon day 1:',
+        description:`- The first day of the hackathon begins, participating teams will gather to start working on their projects. Workshops, team formations, and initial brainstorming sessions may take place.`,
+        date: '09 May 2023',
+        icon: FaCode 
+    },
+    {
+        id:4,
+        title:'Hackathon day 2 and event conclusion:',
+        description:`- The hackathon continues into its second day, with teams focusing on project development and completion. The event concludes with final presentations and the announcement of winners.`,
+        date: '10 May 2023',
+        icon: FaRankingStar 
+    }
 ]
