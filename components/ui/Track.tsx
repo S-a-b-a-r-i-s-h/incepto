@@ -44,7 +44,7 @@ const Track = () => {
     >
       <div className="w-full h-[40vh] mb-24">
         <h1 className="text-white w-full h-[5vh] text-5xl flex justify-center font-semibold">Prize Pool</h1>
-        <h1 className="bg-gradient-to-r from-zinc-500 via-zinc-600 to-zinc-700 bg-clip-text text-transparent opacity-[0.8] w-full h-[35vh] text-[30vh] max-sm:text-[20vh] flex justify-center p-0 m-0 items-center">20k</h1>
+        <h1 className="bg-gradient-to-r from-zinc-500 via-zinc-600 to-zinc-700 bg-clip-text text-transparent opacity-[0.8] w-full h-[35vh] text-[30vh] max-sm:text-[20vh] flex justify-center p-0 m-0 items-center">30k</h1>
       </div>
       <h1
         id="track-heading"

@@ -89,7 +89,7 @@ const Timer = () => {
         alt="Advyka Logo"
         width={700}
         height={700}
-        className="absolute -z-10 opacity-[0.13] max-md:bottom-[5%]"
+        className="absolute -z-10 opacity-[0.1] max-md:bottom-[5%]"
       />
       <div className="relative text-white w-full h-[100vh] flex flex-col items-center pt-[15vh]">
         <h1 className="text-4xl mb-[5vh] opacity-1" id="hack-text">
@@ -113,7 +113,7 @@ const Timer = () => {
           {days} : {hours} : {minutes} : {seconds}
         </h1>
 
-        <div className="flex w-full justify-around text-[50px] max-sm:flex-col items-center md:m-10">
+        <div className="flex w-full justify-around text-[50px] max-sm:text-[30px] max-sm:flex-col items-center md:m-10">
           <p className="m-6">May 09</p>
           <p className="m-6 gradient2">
             @CEP

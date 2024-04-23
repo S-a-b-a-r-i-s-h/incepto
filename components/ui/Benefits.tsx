@@ -76,7 +76,7 @@ function Example() {
   }, []);
 
   return (
-    <div ref={comp} className="mb-36">
+    <div ref={comp} className="max-md:mb-24">
       <div className="items-center justify-center flex max-sm:hidden w-full">
         <h1 className="text-5xl font-semibold text-white">BENEFITS</h1>
       </div>

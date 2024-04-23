@@ -6,8 +6,8 @@ import { TbPhone } from "react-icons/tb";
 
 const Footer = () => {
   return (
-    <footer className='text-slate-300 text-xl flex flex-col items-center mt-20'>
-        <hr className='border-1 w-[90%] m-10' />
+    <footer className='text-slate-300 text-xl flex flex-col items-center'>
+        <hr className='border-1 w-[90%] mb-10' />
         <div className='flex justify-between gap-20 w-[80%] max-lg:w-[90%] max-lg:text-md max-md:flex-col items-center mb-20'>
             <div className='flex flex-col gap-6'>
                 <div className='flex gap-6 items-center'>
@@ -39,10 +39,10 @@ const Footer = () => {
             <div className='flex items-center'>
                 <Image 
                   src="/assets/ceplogo.png"
-                  width={200}
-                  height={200}
+                  width={250}
+                  height={250}
                   alt="College of Engineering Perumon"
-                  className='rounded-md object-cover max-lg:w-[100px] max-lg:height-[100px]'
+                  className='rounded-md object-cover max-lg:w-[150px] max-lg:height-[150px]'
                 />
             </div>
         </div>
