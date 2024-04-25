@@ -11,14 +11,14 @@ const Organizers = () => {
         </h1>
         <div className="flex justify-around items-center w-[90vw] rounded-2xl max-lg:flex-col max-w-[599px]:flex-col mb-24">
           <Image
-            src="/assets/asciblackpng.png"
+            src="/assets/iedc.png"
             alt="asci"
             width={200}
             height={200}
             className="rounded-md object-cover max-sm:mb-8"
           />
           <Image
-            src="/assets/iedc.png"
+            src="/assets/asciblackpng.png"
             alt="mulearn"
             width={250}
             height={250}

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 import { FaInstagram } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
@@ -22,8 +23,13 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex gap-6 items-center'>
-                    <FaInstagram size={35} className="max-sm:w-8 max-sm:h-8" />
-                    <p>inceptoCep</p>
+                    <Link
+                      href="https://www.instagram.com/incepto24?igsh=cTZzc3ZrZTdnMW8x"
+                      className='flex gap-6 items-center'
+                    >
+                        <FaInstagram size={35} className="max-sm:w-8 max-sm:h-8" />
+                        <p>incepto24</p>
+                    </Link>
                 </div>
                 
             </div>
