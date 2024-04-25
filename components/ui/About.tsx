@@ -13,7 +13,7 @@ const About = () => {
     })
   }) 
   return (
-    <div className="w-[100vw]  flex flex-col items-center justify-center ">
+    <div className="w-[100vw] h-[85vh]  flex flex-col items-center justify-center ">
       <div className=" max-md:w-[100vw] w-[40vw] flex">
         <video src="/assets/logoanimate.mp4" className="pointer-events-none w-[85%] mr-6 max-lg:w-[90vw]"  autoPlay muted playsInline={true} key="logoanimate">
           {/* <source src="/assets/logoanimate" type="mp4" /> */}
