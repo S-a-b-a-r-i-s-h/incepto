@@ -82,7 +82,7 @@ const Timer = () => {
   return (
     <div
       ref={container}
-      className="text-white w-full h-[100vh] relative flex justify-center items-center max-md:items-start  overflow-hidden"
+      className="text-white w-full h-[100vh] max-sm:h-[70vh] relative flex justify-center items-center max-md:items-start  overflow-hidden"
     >
       <Image 
         src="/assets/advykabg.png"
@@ -91,7 +91,7 @@ const Timer = () => {
         height={700}
         className="absolute -z-10 opacity-[0.1] max-md:bottom-[30%] "
       />
-      <div className="relative text-white w-full h-[100vh] flex flex-col items-center pt-[15vh]">
+      <div className="relative text-white w-full h-[100vh] max-sm:h-[70vh] flex flex-col items-center pt-[15vh]">
         <h1 className="text-4xl mb-[5vh] opacity-1" id="hack-text">
           Hacking starts in{" "}
           <span id="dot" className="opacity-0">
@@ -122,7 +122,7 @@ const Timer = () => {
         <div className="flex justify-around mt-[5vh] w-full max-sm:flex-col items-center">
           <p
             id="free-reg"
-            className="inline m-6 mr-0 text-2xl font-bold gradient2"
+            className="inline mb-6 mr-0 text-2xl font-bold gradient2"
           >
             Free Registration !
           </p>
