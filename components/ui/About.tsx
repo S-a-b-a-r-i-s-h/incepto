@@ -20,7 +20,7 @@ const About = () => {
         </video>
         {/* <div className="border-2 border-red-500 w-[50vw]"></div> */}
       </div>
-      <h1 className='text-[50px] max-sm:text-[10px] mb-5 opacity-0 sm:text-[80px]  leading-tight h-[20vh] max-sm:h-[10vh] bg-gradient-to-r from-zinc-500 via-zinc-600 to-zinc-700 bg-clip-text text-transparent incepto'>INCEPTO</h1>
+      <h1 className='text-[50px] max-sm:text-[70px] mb-5 opacity-0 sm:text-[80px]  leading-tight h-[20vh] max-sm:h-[10vh] bg-gradient-to-r from-zinc-500 via-zinc-600 to-zinc-700 bg-clip-text text-transparent incepto'>INCEPTO</h1>
       <p className="text-slate-300 text-xl font-bold">09 - 10 April, 2024</p>
       <p className="text-slate-300 font-black text-2xl max-md:text-lg mb-4">College of Engineering Perumon</p>
       <Link href='mailto:inceptohack@gmail.com' className="text-2xl gradient2 underline decoration-[#06B6D4]">
