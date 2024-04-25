@@ -97,12 +97,31 @@
   display: none;
 }
 
+.inceptofont {
+  font-family: Helvetica, sans-serif;
+}
+
 .mobilePhoto {
   width: 80vw;
   height: 80vw;
   margin-top: 5em;
   border-radius: 6vw;
+  /* background: bg-[linear-gradient(110deg,#1dfc519b,45%,#90ffaa,55%,#1eff539b)]; */
 }
+
+@keyframes animate-shimmer-slow {
+  0% { background-position: -468px 0 }
+  100% { background-position: 468px 0 }
+}
+
+.animate-shimmer-slow {
+  animation-duration: 3s; /* Increase this value to slow down the animation */
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: animate-shimmer-slow;
+  animation-timing-function: linear;
+}
+
 
 .gradient2{
   background: linear-gradient(to right, #BFDBFE, #06B6D4);

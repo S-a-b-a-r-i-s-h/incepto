@@ -28,8 +28,8 @@ const Timer = () => {
     })
       .to("#timer", {
         opacity: 1,
-        duration: 5,
-        delay: 1,
+        duration: 4,
+        delay: 0.5,
       })
       .to("#dot", {
         opacity: 1,
@@ -89,7 +89,7 @@ const Timer = () => {
         alt="Advyka Logo"
         width={700}
         height={700}
-        className="absolute -z-10 opacity-[0.1] max-md:bottom-[5%]"
+        className="absolute -z-10 opacity-[0.1] max-md:bottom-[30%] "
       />
       <div className="relative text-white w-full h-[100vh] flex flex-col items-center pt-[15vh]">
         <h1 className="text-4xl mb-[5vh] opacity-1" id="hack-text">
@@ -126,7 +126,7 @@ const Timer = () => {
           >
             Free Registration !
           </p>
-          <Button />
+          {/* <Button /> */}
         </div>
         
       </div>

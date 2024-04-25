@@ -20,13 +20,23 @@ const About = () => {
         </video>
         {/* <div className="border-2 border-red-500 w-[50vw]"></div> */}
       </div>
-      <h1 className='text-[50px] opacity-0 sm:text-[80px] md:text-[100px] lg:text-[160px] leading-tight h-[20vh] max-sm:h-[10vh] bg-gradient-to-r from-zinc-500 via-zinc-600 to-zinc-700 bg-clip-text text-transparent incepto'>INCEPTO</h1>
+      <h1 className='inceptofont text-[50px] opacity-0 sm:text-[80px] md:text-[100px] lg:text-[160px] leading-tight h-[20vh] max-sm:h-[10vh] bg-gradient-to-r from-zinc-500 via-zinc-600 to-zinc-700 bg-clip-text text-transparent incepto'>INCEPTO</h1>
       <p className="text-slate-300 text-xl font-bold">09 - 10 April, 2024</p>
       <p className="text-slate-300 font-black text-2xl max-md:text-lg mb-4">College of Engineering Perumon</p>
       <Link href='mailto:inceptohack@gmail.com' className="text-2xl gradient2 underline decoration-[#06B6D4]">
         Be a sponser
       </Link>
-      <Button />
+      {/* <Button /> */}
+
+      <Link
+        href="https://makemypass.com/incepto"
+      >
+        <button className="inline-flex hover:scale-[1.02] h-12 animate-shimmer items-center justify-center rounded-md border m-6 border-zinc-800 bg-[linear-gradient(110deg,#1dfc519b,45%,#90ffaa,55%,#1dfc519b)]  bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none">
+          Register with MakeMyPass
+        </button>
+      </Link>
+      
+
     </div>
   )
 }
