@@ -19,17 +19,8 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "INCEPTO",
   description: "A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit.",
-  openGraph: {
-    title: "INCEPTO",
-    description: "A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit.",
-    images: [
-      {
-        url: "/opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "INCEPTO",
-      },
-    ],
+  icons: {
+    icon: "/favicon.ico",
   }
 };
 
