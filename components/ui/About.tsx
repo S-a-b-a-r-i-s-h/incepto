@@ -24,7 +24,7 @@ const About = () => {
       <p className="text-slate-300 text-xl font-bold">09 - 10 May, 2024</p>
       <p className="text-slate-300 font-black text-2xl max-md:text-lg mb-4">College of Engineering Perumon</p>
       <Link href='mailto:inceptohack@gmail.com' className="text-2xl gradient2 underline decoration-[#06B6D4]">
-        Be a sponser
+        Be a sponsor
       </Link>
       {/* <Button /> */}
 
