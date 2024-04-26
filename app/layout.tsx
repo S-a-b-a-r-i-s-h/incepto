@@ -10,9 +10,8 @@ const dmSans = DM_Sans({
 }) 
 
 export const metadata: Metadata = {
-  title: "inCEPto",
+  title: "INCEPTO",
   description: "A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit.",
-  
 };
 
 export default function RootLayout({
