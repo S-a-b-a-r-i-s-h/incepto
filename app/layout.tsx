@@ -41,7 +41,7 @@ export default function RootLayout({
         <title>INCEPTO</title>
         <meta property="og:title" content="INCEPTO" />
         <meta property="og:description" content="A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit." />
-        <meta property="og:url" content="https://thoughts-a-thread.vercel.app" />
+        <meta property="og:url" content="https://incepto24.vercel.app" />
         <meta property="og:image" content="https://i.postimg.cc/DzvqrW8k/opengraph-image.png" />
         <meta name="twitter:title" content="INCEPTO" />
         <meta name="twitter:description" content="A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit." />
