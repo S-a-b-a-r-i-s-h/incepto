@@ -33,11 +33,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <title>INCEPTO</title>
-        <meta name="description" content="A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit." />
-        <meta property="og:title" content="INCEPTO" />
-        <meta property="og:description" content="A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit." />
-        <meta property="og:image" content="/opengraph-image.png" /> */}
         <title>INCEPTO</title>
         <meta property="og:title" content="INCEPTO" />
         <meta property="og:description" content="A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit." />
