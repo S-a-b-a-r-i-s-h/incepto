@@ -110,6 +110,10 @@ export const TimeLineElements: { id: number, title: string, description: string,
     }
 ]
 
+const webUrl = 'incepto24.vercel.app'
+
 export const siteMetadataConfig: { ogImage: string } = {
-    ogImage: '/assets/opengraph-image.jpg',
+    // ogImage: '/assets/opengraph-image.jpg',
+    ogImage: `https://${webUrl}/assets/opengraph-image.jpg`,
 }
+
