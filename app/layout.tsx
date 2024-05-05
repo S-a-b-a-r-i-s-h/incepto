@@ -29,6 +29,7 @@ export const metadata: Metadata = {
     description:
       "A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit.",
     images: siteMetadataConfig.ogImage,
+    url: "https://incepto24.vercel.app",
   },
   twitter: {
     card: "summary_large_image",
