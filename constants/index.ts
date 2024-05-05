@@ -111,5 +111,5 @@ export const TimeLineElements: { id: number, title: string, description: string,
 ]
 
 export const siteMetadataConfig: { ogImage: string } = {
-    ogImage: '/assets/opengraph-image.png',
+    ogImage: '/assets/opengraph-image.jpg',
 }
