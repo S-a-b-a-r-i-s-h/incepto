@@ -1,3 +1,4 @@
+import { siteMetadataConfig } from "@/constants";
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import Image from "next/image";
@@ -16,13 +17,28 @@ const dmSans = DM_Sans({
   
 // };
 
-// export const metadata: Metadata = {
-//   title: "INCEPTO",
-//   description: "A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit.",
-//   icons: {
-//     icon: "/favicon.ico",
-//   }
-// };
+export const metadata: Metadata = {
+  title: "INCEPTO",
+  description: "A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit.",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "INCEPTO",
+    title:
+      "INCEPTO",
+    description:
+      "A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit.",
+    images: siteMetadataConfig.ogImage,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "INCEPTO",
+    description:
+      "A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit.",
+    images: siteMetadataConfig.ogImage,
+  },
+};
 
 
 export default function RootLayout({
@@ -32,8 +48,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <title>INCEPTO</title>
+      {/* <head> */}
+        {/* <title>INCEPTO</title>
         <meta property="og:title" content="INCEPTO" />
         <meta property="og:description" content="A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit." />
         <meta property="og:url" content="https://incepto24.vercel.app" />
@@ -42,8 +58,8 @@ export default function RootLayout({
         <meta name="twitter:description" content="A nation-wide 24 hour hackathon happening at College of Engineering Perumon. It aims to provide a platform for innovative minds to unveil their technical and problem solving skills being alongside like minded individuals on a marathon spirit." />
         <meta name="twitter:image" content="https://i.postimg.cc/DzvqrW8k/opengraph-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/assets/favicon.ico" />
-      </head>
+        <link rel="icon" href="/assets/favicon.ico" /> */}
+      {/* </head> */}
       <body className={`${dmSans.className} bg-black`}>
         {children}
       </body>
