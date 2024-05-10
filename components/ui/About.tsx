@@ -28,13 +28,11 @@ const About = () => {
       </Link>
       {/* <Button /> */}
 
-      <Link
-        href="https://makemypass.com/incepto"
-      >
+      <p>
         <button className="inline-flex hover:scale-[1.02] h-12 animate-shimmer items-center justify-center rounded-md border m-6 border-zinc-800 bg-[linear-gradient(110deg,#1dfc519b,45%,#90ffaa,55%,#1dfc519b)]  bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none">
-          Register with MakeMyPass
+          Registration closed
         </button>
-      </Link>
+      </p>
       
 
     </div>
