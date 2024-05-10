@@ -92,7 +92,7 @@ const Timer = () => {
         className="absolute -z-10 opacity-[0.06] max-md:bottom-[10%] "
       />
       <div className="relative text-white w-full h-[100vh] max-sm:h-[70vh] flex flex-col items-center pt-[15vh]">
-        <h1 className="text-4xl mb-[5vh] opacity-1" id="hack-text">
+       {/* <h1 className="text-4xl mb-[5vh] opacity-1" id="hack-text">
           Hacking starts in{" "}
           <span id="dot" className="opacity-0">
             .
@@ -103,15 +103,15 @@ const Timer = () => {
           <span id="dot" className="opacity-0">
             .
           </span>
-        </h1>
+        </h1> */}
 
         {/* <div className="glow absolute -z-10 aspect-square bg-blue-400/20 blur-3xl filter w-full max-w-xl rounded-full"></div> */}
-        <h1
+        {/* <h1
           id="timer"
           className="text-[50px] opacity-0 sm:text-[80px] md:text-[100px] lg:text-[160px] leading-tight h-[20vh] max-sm:h-[10vh] text-slate-300"
         >
           {days} : {hours} : {minutes} : {seconds}
-        </h1>
+        </h1> */}
 
         <div className="flex w-full justify-around text-[50px] max-sm:text-[30px] max-sm:flex-col items-center md:m-10">
           <p className="m-6">May 09</p>
